@@ -1,0 +1,10 @@
+.posts {
+  padding: 20px;
+}
+.posts li {
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  background-color: #eee;
+  cursor: pointer;
+}

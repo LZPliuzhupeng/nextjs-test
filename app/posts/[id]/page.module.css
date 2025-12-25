@@ -1,0 +1,11 @@
+.article {
+  padding: 20px;
+  background-color: #eee;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.text {
+  margin-top: 12px;
+}
