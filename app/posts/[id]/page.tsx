@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
   };
 }
 
-export async function generateStaticParams() {
-  const posts = await fetch("https://jsonplaceholder.typicode.com/posts").then((res) => res.json())
-  return posts.map((post: any) => ({
-    id: String(post.id),
-  }))
-}
+// export async function generateStaticParams() {
+//   const posts = await fetch("https://jsonplaceholder.typicode.com/posts").then((res) => res.json())
+//   return posts.map((post: any) => ({
+//     id: String(post.id),
+//   }))
+// }
 
 export default async function PostDetailPage({ params }: any) {
   const { id } = await params;
